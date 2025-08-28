@@ -1198,9 +1198,10 @@ pre.jsoneditor-preview {
   border-collapse: collapse;
   border-spacing: 0;
   display: flex;
+  background-color: transparent !important;
 }
 .jsoneditor-search input {
-  color: #1a1a1a;
+  color: #fff;
   width: 120px;
   border: none;
   outline: 0;
@@ -1216,6 +1217,8 @@ pre.jsoneditor-preview {
   border: none;
   background: url(./img/jsoneditor-icons.svg);
   vertical-align: top;
+  background-color: #1a1a1a !important;
+  line-height: 1.5rem;
 }
 .jsoneditor-search button:hover {
   background-color: transparent;
@@ -1227,17 +1230,25 @@ pre.jsoneditor-preview {
 .jsoneditor-search button.jsoneditor-next {
   cursor: pointer;
   background-position: -124px -73px;
+  background-color: #1a1a1a !important;
+  line-height: 1.5rem;
 }
 .jsoneditor-search button.jsoneditor-next:hover {
   background-position: -124px -49px;
+  background-color: #1a1a1a !important;
+  line-height: 1.5rem;
 }
 .jsoneditor-search button.jsoneditor-previous {
   cursor: pointer;
   background-position: -148px -73px;
   margin-right: 2px;
+  background-color: #1a1a1a !important;
+  line-height: 1.5rem;
 }
 .jsoneditor-search button.jsoneditor-previous:hover {
   background-position: -148px -49px;
+  background-color: #1a1a1a !important;
+  line-height: 1.5rem;
 }
 .jsoneditor-results {
   font-family: arial, sans-serif;
@@ -1247,7 +1258,7 @@ pre.jsoneditor-preview {
 }
 .jsoneditor-frame {
   border: 1px solid transparent;
-  background-color: #121212;
+  background-color: #1a1a1a !important;
   padding: 0 2px;
   margin: 0;
 }
