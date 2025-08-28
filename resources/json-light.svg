@@ -1,27 +1,22 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1017.55 908.87">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #231f20;
+      }
 
-<svg xmlns:dc="http://purl.org/dc/elements/1.1/" 
-    xmlns:cc="http://creativecommons.org/ns#" 
-    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
-    xmlns:svg="http://www.w3.org/2000/svg" 
-    xmlns="http://www.w3.org/2000/svg" 
-    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" 
-    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="96" height="96" viewBox="0 0 25.4 25.400001" version="1.1" id="svg8" inkscape:version="0.92.3 (2405546, 2018-03-11)" sodipodi:docname="json-light.svg">
-    <defs id="defs2" />
-    <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="5.6" inkscape:cx="-2.9694961" inkscape:cy="64.211529" inkscape:document-units="mm" inkscape:current-layer="layer1" showgrid="false" units="px" inkscape:window-width="2560" inkscape:window-height="1380" inkscape:window-x="0" inkscape:window-y="0" inkscape:window-maximized="1" />
-    <metadata id="metadata5">
-        <rdf:RDF>
-            <cc:Work rdf:about="">
-                <dc:format>image/svg+xml</dc:format>
-                <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-                <dc:title></dc:title>
-            </cc:Work>
-        </rdf:RDF>
-    </metadata>
-    <g inkscape:label="Calque 1" inkscape:groupmode="layer" id="layer1" transform="translate(0,-271.59998)">
-        <text xml:space="preserve" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.37059402px;line-height:1.25;font-family:'Amatic SC';-inkscape-font-specification:'Amatic SC';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.6319859" x="-1.6392481" y="239.59866" id="text819" transform="scale(0.82191975,1.2166638)">
-            <tspan sodipodi:role="line" id="tspan817" x="-1.6392481" y="239.59866" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';stroke-width:3.6319859">{ }</tspan>
-        </text>
+      .cls-2 {
+        isolation: isolate;
+      }
+    </style>
+  </defs>
+  <g id="layer1">
+    <g id="text819">
+      <g class="cls-2">
+        <path class="cls-1" d="M222.7,908.65c-45.7,0-79.7-16.27-102.21-48.71-22.52-32.55-33.77-84.04-33.77-154.6v-124.39c0-33.66-5.13-58.96-15.27-75.91-10.14-16.94-26.97-25.53-50.6-25.53H0v-92.63h20.84c11.93,0,22.07-1.89,30.43-5.68,8.36-3.79,15.27-9.59,20.51-17.39s9.14-17.83,11.37-30.1c2.34-12.26,3.46-26.86,3.46-43.81v-86.16c0-33.66,2.56-63.2,7.8-88.61,5.13-25.53,13.26-46.7,24.3-63.65s25.08-29.76,42.24-38.45C178.01,4.35,198.63.11,222.7.11h27.75v92.07h-20.84c-10.59,0-20.17,1.89-28.65,5.68s-15.83,9.92-21.96,18.39-10.92,19.73-14.27,33.55c-3.34,13.93-5.02,31.1-5.02,51.72v85.72c0,24.52-1.34,45.37-4.12,62.64s-7.02,31.77-12.71,43.36-13.04,20.62-21.85,26.97-19.17,10.81-31.1,13.49c23.63,3.9,41.13,17.61,52.61,40.91,11.48,23.41,17.17,59.19,17.17,107.56v124.39c0,21.18,1.67,38.9,5.02,52.95,3.34,14.04,8.03,25.3,14.27,33.77,6.13,8.47,13.49,14.49,21.96,18.17s18.06,5.35,28.65,5.35h20.84v92.07h-27.75v-.22Z"/>
+        <path class="cls-1" d="M794.51.11c45.92,0,80.03,16.27,102.55,48.71,22.52,32.55,33.77,84.15,33.77,155.05v82.26c0,33.66,5.02,58.85,15.05,75.68,10.03,16.83,26.86,25.19,50.49,25.19h21.18v92.63h-21.18c-11.93,0-22.07,1.89-30.43,5.57-8.36,3.79-15.16,9.59-20.4,17.39-5.24,7.8-8.92,17.83-11.26,30.1-2.34,12.26-3.46,26.86-3.46,43.81v128.85c0,33.66-2.56,63.09-7.8,88.39-5.13,25.3-13.26,46.48-24.3,63.42-11.03,16.94-25.19,29.76-42.36,38.45s-37.79,13.04-61.86,13.04h-27.75v-92.07h21.18c10.59,0,20.17-1.78,28.65-5.35s15.83-9.7,21.96-18.39c6.13-8.69,10.92-19.95,14.27-33.77,3.34-13.93,5.02-31.1,5.02-51.72v-127.4c0-24.52,1.34-45.48,4.12-62.98s6.91-31.99,12.6-43.58c5.57-11.59,12.82-20.51,21.74-26.64,8.81-6.24,19.17-10.59,31.1-13.26-23.63-4.24-41.13-18.06-52.5-41.35s-17.05-59.19-17.05-107.56v-81.81c0-21.18-1.67-38.9-5.02-53.17s-8.03-25.53-14.27-34c-6.13-8.47-13.49-14.49-21.96-18.17-8.47-3.57-18.06-5.35-28.65-5.35h-21.18V0h27.75v.11Z"/>
+      </g>
     </g>
+  </g>
 </svg>

@@ -111,6 +111,7 @@
     },
     "scripts": {
         "vscode:package": "npx vsce package",
+        "vscode:publish": "npx vsce publish",
         "vscode:prepublish": "npm run compile",
         "compile": "tsc -p ./",
         "watch": "tsc -watch -p ./",
