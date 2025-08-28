@@ -51,7 +51,7 @@
             {
                 "command": "vscode-json-editor.start",
                 "title": "Start JSON Tree Reborn session",
-                "category": "JSON Tree Editor",
+                "category": "JSON Reborn",
                 "icon": {
                     "light": "./resources/json-light.svg",
                     "dark": "./resources/json-dark.svg"
