@@ -1,0 +1,14 @@
+{
+  // This is a comment in JSON5
+  "name": "test-json5-file",
+  "version": "1.0.0",
+  features: {  // unquoted property key
+    "comments": true,
+    "trailing_commas": true,
+    "unquoted_keys": true,
+    'single_quotes': true,  // single quotes
+  }, // trailing comma
+  "hexNumber": 0xFF,
+  "multilineString": "This is a \
+multiline string"
+}

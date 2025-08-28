@@ -1,1 +1,114 @@
-div.jsoneditor,div.jsoneditor-menu{border-color:#4b4b4b}div.jsoneditor-menu{background-color:#4b4b4b}div.jsoneditor textarea.jsoneditor-text,div.jsoneditor-tree{color:#fff}div.jsoneditor-field,div.jsoneditor-value{color:#fff}table.jsoneditor-search div.jsoneditor-frame{background:grey}tr.jsoneditor-highlight,tr.jsoneditor-selected{background-color:grey}div.jsoneditor-field.jsoneditor-highlight,div.jsoneditor-field[contenteditable=true]:focus,div.jsoneditor-field[contenteditable=true]:hover,div.jsoneditor-value.jsoneditor-highlight,div.jsoneditor-value[contenteditable=true]:focus,div.jsoneditor-value[contenteditable=true]:hover{background-color:grey;border-color:grey}div.jsoneditor-field.highlight-active,div.jsoneditor-field.highlight-active:focus,div.jsoneditor-field.highlight-active:hover,div.jsoneditor-value.highlight-active,div.jsoneditor-value.highlight-active:focus,div.jsoneditor-value.highlight-active:hover{background-color:#b1b1b1;border-color:#b1b1b1}div.jsoneditor-tree button:focus{background-color:#868686}div.jsoneditor td.jsoneditor-separator,div.jsoneditor-readonly{color:#acacac}div.jsoneditor-value.jsoneditor-string{color:#0f8}div.jsoneditor-value.jsoneditor-array,div.jsoneditor-value.jsoneditor-object{color:#bababa}div.jsoneditor-value.jsoneditor-number{color:#ff4040}div.jsoneditor-value.jsoneditor-boolean{color:#ff8048}div.jsoneditor-value.jsoneditor-null{color:#49a7fc}div.jsoneditor-value.jsoneditor-invalid{color:#fff}
+div.jsoneditor,
+div.jsoneditor-menu {
+    border-color: #4b4b4b;
+    background-color: #1e1e1e;
+}
+
+div.jsoneditor-menu {
+    background-color: #2d2d30;
+    border-bottom: 1px solid #4b4b4b;
+}
+
+div.jsoneditor textarea.jsoneditor-text,
+div.jsoneditor-tree {
+    color: #cccccc;
+    background-color: #1e1e1e;
+}
+
+div.jsoneditor-field,
+div.jsoneditor-value {
+    color: #cccccc
+}
+
+table.jsoneditor-search div.jsoneditor-frame {
+    background: #2d2d30;
+    color: #cccccc;
+}
+
+tr.jsoneditor-highlight,
+tr.jsoneditor-selected {
+    background-color: #264f78
+}
+
+div.jsoneditor-field.jsoneditor-highlight,
+div.jsoneditor-field[contenteditable=true]:focus,
+div.jsoneditor-field[contenteditable=true]:hover,
+div.jsoneditor-value.jsoneditor-highlight,
+div.jsoneditor-value[contenteditable=true]:focus,
+div.jsoneditor-value[contenteditable=true]:hover {
+    background-color: #264f78;
+    border-color: #007acc;
+    color: #ffffff;
+}
+
+div.jsoneditor-field.highlight-active,
+div.jsoneditor-field.highlight-active:focus,
+div.jsoneditor-field.highlight-active:hover,
+div.jsoneditor-value.highlight-active,
+div.jsoneditor-value.highlight-active:focus,
+div.jsoneditor-value.highlight-active:hover {
+    background-color: #094771;
+    border-color: #0e639c;
+    color: #ffffff;
+}
+
+div.jsoneditor-tree button:focus {
+    background-color: #2d2d30;
+    outline: 1px solid #007acc;
+}
+
+div.jsoneditor td.jsoneditor-separator,
+div.jsoneditor-readonly {
+    color: #acacac
+}
+
+div.jsoneditor-value.jsoneditor-string {
+    color: #0f8
+}
+
+div.jsoneditor-value.jsoneditor-array,
+div.jsoneditor-value.jsoneditor-object {
+    color: #bababa
+}
+
+div.jsoneditor-value.jsoneditor-number {
+    color: #ff4040
+}
+
+div.jsoneditor-value.jsoneditor-boolean {
+    color: #ff8048
+}
+
+div.jsoneditor-value.jsoneditor-null {
+    color: #49a7fc
+}
+
+div.jsoneditor-value.jsoneditor-invalid {
+    color: #f44747;
+    background-color: #5a1d1d;
+}
+
+/* Additional dark theme enhancements */
+div.jsoneditor {
+    background-color: #1e1e1e;
+}
+
+div.jsoneditor-outer {
+    background-color: #1e1e1e;
+}
+
+div.jsoneditor-context-menu {
+    background-color: #2d2d30;
+    border-color: #4b4b4b;
+    color: #cccccc;
+}
+
+div.jsoneditor-context-menu ul li button {
+    color: #cccccc;
+    background-color: transparent;
+}
+
+div.jsoneditor-context-menu ul li button:hover {
+    background-color: #264f78;
+    color: #ffffff;
+}

@@ -2,3 +2,6 @@ out
 node_modules
 .vscode-test/
 *.vsix
+.vscode/cpx.json
+.vscode/tasks.json
+*.ai.md

@@ -1,46 +1,105 @@
 {
-    "name": "vscode-json-editor",
-    "displayName": "Json Editor",
+    "name": "json-tree-reborn",
+    "displayName": "JSON Tree Reborn",
     "description": "Generate a tree view editor of the active JSON document",
-    "version": "0.3.0",
-    "publisher": "nickdemayo",
+    "version": "1.0.20250827",
+    "publisher": "APinchofDill",
     "engines": {
-        "vscode": "^1.24.0"
+        "vscode": "^1.103.0"
     },
     "icon": "resources/icon.png",
     "categories": [
         "Other"
     ],
-    "homepage": "https://github.com/sunmorgus/vscode-json-editor",
+    "homepage": "https://github.com/APinchofDill/vscode-json-editor",
     "keywords": [
         "json",
+        "json5",
+        "jsonc",
         "editor",
         "tree",
         "preview"
     ],
     "activationEvents": [
         "onLanguage:json",
+        "onLanguage:json5",
+        "onLanguage:jsonc",
         "onCommand:vscode-json-editor.start"
     ],
     "main": "./out/src/extension",
     "repository": {
         "type": "git",
-        "url": "https://github.com/sunmorgus/vscode-json-editor.git"
+        "url": "https://github.com/APinchofDill/vscode-json-editor.git"
     },
     "contributes": {
+        "languages": [
+            {
+                "id": "json5",
+                "aliases": ["JSON5", "json5"],
+                "extensions": [".json5"],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "json5",
+                "scopeName": "source.json5",
+                "path": "./syntaxes/json5.tmLanguage.json"
+            }
+        ],
         "commands": [
             {
                 "command": "vscode-json-editor.start",
-                "title": "Start JSON editor session",
-                "category": "JSON editor"
+                "title": "Start JSON Tree Reborn session",
+                "category": "JSON Tree Editor",
+                "icon": {
+                    "light": "./resources/json-light.svg",
+                    "dark": "./resources/json-dark.svg"
+                }
             }
         ],
+        "menus": {
+            "explorer/context": [
+                {
+                    "when": "resourceExtname == .json",
+                    "command": "vscode-json-editor.start",
+                    "group": "navigation"
+                },
+                {
+                    "when": "resourceExtname == .json5",
+                    "command": "vscode-json-editor.start",
+                    "group": "navigation"
+                },
+                {
+                    "when": "resourceExtname == .jsonc",
+                    "command": "vscode-json-editor.start",
+                    "group": "navigation"
+                }
+            ],
+            "editor/title": [
+                {
+                    "when": "editorLangId == json",
+                    "command": "vscode-json-editor.start",
+                    "group": "navigation"
+                },
+                {
+                    "when": "editorLangId == json5",
+                    "command": "vscode-json-editor.start",
+                    "group": "navigation"
+                },
+                {
+                    "when": "editorLangId == jsonc",
+                    "command": "vscode-json-editor.start",
+                    "group": "navigation"
+                }
+            ]
+        },
         "configuration": {
-            "title": "Json Editor",
+            "title": "JSON Tree Reborn",
             "properties": {
                 "vscode-json-editor.theme": {
                     "type": "string",
-                    "default": "light",
+                    "default": "dark",
                     "description": "Set the theme for the editor ('light', 'dark'). Note: you must close/reopen any existing editors for the change to take effect.",
                     "enum": [
                         "light",
@@ -51,20 +110,19 @@
         }
     },
     "scripts": {
+        "vscode:package": "npx vsce package",
         "vscode:prepublish": "npm run compile",
         "compile": "tsc -p ./",
         "watch": "tsc -watch -p ./",
-        "postinstall": "node ./node_modules/vscode/bin/install",
-        "test": "npm run compile && node ./node_modules/vscode/bin/test"
+        "deploy": "vsce publish --yarn"
     },
     "devDependencies": {
-        "@types/mocha": "^2.2.42",
-        "@types/node": "^7.0.43",
-        "aqua": "^1.0.1",
-        "tslint": "^5.8.0",
-        "tslint-microsoft-contrib": "^5.0.3",
-        "typescript": "^2.6.1",
-        "vscode": "^1.1.6"
+        "@types/node": "^24.3.0",
+        "@types/vscode": "^1.103.0",
+        "@vscode/vsce": "^3.6.0",
+        "typescript": "^5.9.2"
     },
-    "dependencies": {}
+    "dependencies": {
+        "json5": "^2.2.3"
+    }
 }
