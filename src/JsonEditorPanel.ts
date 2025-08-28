@@ -184,16 +184,6 @@ export class JsonEditorPanel {
 
     private onActiveEditorChanged(): void {
         try {
-            // Check if webview panel is visible and focused to avoid unnecessary updates
-            if (this._panel.visible && this._panel.active) {
-                // If the panel is active, don't reload content unless the editor actually changed
-                const currentEditor = vscode.window.activeTextEditor;
-                if (currentEditor && currentEditor === this._currentEditor) {
-                    // Same editor, no need to reload
-                    return;
-                }
-            }
-
             if (vscode.window.activeTextEditor) {
                 // Only update if this is a JSON file editor
                 const activeEditor = vscode.window.activeTextEditor;
@@ -225,8 +215,6 @@ export class JsonEditorPanel {
                     this._panel.webview.postMessage({ json: '{}', error: 'Invalid JSON content' });
                 }
             }
-            // Remove the fallback that sends empty object when no active editor
-            // This prevents the editor from being cleared when focus changes
         } catch (error) {
             console.error('Error in onActiveEditorChanged:', error);
             // Only send fallback if we don't have a current editor at all
