@@ -25,6 +25,148 @@ table.jsoneditor-search div.jsoneditor-frame {
     color: #cccccc;
 }
 
+/* Enhanced search bar styling for dark theme */
+table.jsoneditor-search {
+    background-color: #1e1e1e !important;
+}
+
+table.jsoneditor-search input {
+    background-color: #2d2d30 !important;
+    color: #ffffff !important;
+    border: 1px solid #4b4b4b !important;
+    border-radius: 4px !important;
+    padding: 6px 12px !important;
+}
+
+table.jsoneditor-search input:focus {
+    border-color: #007acc !important;
+    outline: none !important;
+    box-shadow: 0 0 0 2px rgba(0, 122, 204, 0.2) !important;
+}
+
+table.jsoneditor-search input::placeholder {
+    color: #969696 !important;
+}
+
+table.jsoneditor-search button {
+    background-color: #2d2d30 !important;
+    color: #cccccc !important;
+    border: 1px solid #4b4b4b !important;
+    border-radius: 4px !important;
+}
+
+table.jsoneditor-search button:hover {
+    background-color: #264f78 !important;
+    color: #ffffff !important;
+}
+
+div.jsoneditor-search {
+    background-color: #1e1e1e !important;
+}
+
+div.jsoneditor-search input {
+    background-color: #2d2d30 !important;
+    color: #ffffff !important;
+    border: 1px solid #4b4b4b !important;
+    border-radius: 4px !important;
+    padding: 6px 12px !important;
+}
+
+div.jsoneditor-search input:focus {
+    border-color: #007acc !important;
+    outline: none !important;
+    box-shadow: 0 0 0 2px rgba(0, 122, 204, 0.2) !important;
+}
+
+div.jsoneditor-search input::placeholder {
+    color: #969696 !important;
+}
+
+div.jsoneditor-search button {
+    background-color: #2d2d30 !important;
+    color: #cccccc !important;
+    border: 1px solid #4b4b4b !important;
+    border-radius: 4px !important;
+    padding: 4px 8px !important;
+    margin-left: 4px !important;
+}
+
+div.jsoneditor-search button:hover {
+    background-color: #264f78 !important;
+    color: #ffffff !important;
+}
+
+/* Additional search element styling for complete dark theme coverage */
+div.jsoneditor-search-box,
+div.jsoneditor-search-container,
+.jsoneditor-search-box,
+.jsoneditor-search-container {
+    background-color: #1e1e1e !important;
+}
+
+td.jsoneditor-search,
+th.jsoneditor-search {
+    background-color: #1e1e1e !important;
+}
+
+div.jsoneditor-search-results,
+.jsoneditor-search-results {
+    background-color: #2d2d30 !important;
+    color: #cccccc !important;
+}
+
+/* Search toolbar and controls */
+div.jsoneditor-search-toolbar,
+.jsoneditor-search-toolbar {
+    background-color: #2d2d30 !important;
+    border-color: #4b4b4b !important;
+}
+
+/* Search navigation buttons */
+button.jsoneditor-search-next,
+button.jsoneditor-search-previous,
+button.jsoneditor-search-close,
+.jsoneditor-search-next,
+.jsoneditor-search-previous,
+.jsoneditor-search-close {
+    background-color: #2d2d30 !important;
+    color: #cccccc !important;
+    border: 1px solid #4b4b4b !important;
+    border-radius: 3px !important;
+}
+
+button.jsoneditor-search-next:hover,
+button.jsoneditor-search-previous:hover,
+button.jsoneditor-search-close:hover,
+.jsoneditor-search-next:hover,
+.jsoneditor-search-previous:hover,
+.jsoneditor-search-close:hover {
+    background-color: #264f78 !important;
+    color: #ffffff !important;
+}
+
+/* Search panel background */
+div.jsoneditor-search-panel,
+.jsoneditor-search-panel {
+    background-color: #1e1e1e !important;
+    border-color: #4b4b4b !important;
+}
+
+/* Any remaining search table elements */
+table.jsoneditor-search,
+table.jsoneditor-search td,
+table.jsoneditor-search th {
+    background-color: #1e1e1e !important;
+    color: #cccccc !important;
+    border-color: #4b4b4b !important;
+}
+
+/* Override any default white backgrounds in search area */
+div.jsoneditor-search *:not(input):not(button),
+table.jsoneditor-search *:not(input):not(button) {
+    background-color: inherit !important;
+}
+
 tr.jsoneditor-highlight,
 tr.jsoneditor-selected {
     background-color: #264f78

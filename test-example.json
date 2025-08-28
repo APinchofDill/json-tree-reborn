@@ -1,0 +1,17 @@
+{
+  "name": "Test Document",
+  "items": [
+    {
+      "id": 1,
+      "value": "example"
+    },
+    {
+      "id": 2,
+      "value": "another example"
+    }
+  ],
+  "config": {
+    "enabled": true,
+    "timeout": 5000
+  }
+}
