@@ -5,7 +5,7 @@
     "version": "1.0.20250827",
     "publisher": "APinchofDill",
     "engines": {
-        "vscode": "^1.103.0"
+        "vscode": "^1.99.0"
     },
     "icon": "resources/icon.png",
     "categories": [
